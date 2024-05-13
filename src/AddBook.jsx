@@ -58,7 +58,7 @@ const AddBook = () => {
           <div className="row">
             <div className="mb-3 pt-3 col-lg-6">
               <label htmlFor="bookTitle " className="form-label text-light">Book Title:</label>
-              <input type="text" className="form-control " id="bookTitle" placeholder="The Secret"
+              <input type="text" className="form-control " id="bookTitle" placeholder=" "
                 name='title'
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -72,7 +72,7 @@ const AddBook = () => {
 
             <div className="mb-3 pt-3 col-lg-6">
               <label htmlFor="authorname " className="form-label text-light">Author:</label>
-              <input type="text" className="form-control " id="authorname" placeholder="R.S.Agarval"
+              <input type="text" className="form-control " id="authorname" placeholder=" "
                 name='author'
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -86,7 +86,7 @@ const AddBook = () => {
             </div>
             <div className="mb-3 pt-3 col-lg-6">
               <label htmlFor="ISBN " className="form-label text-light">ISBN Number:</label>
-              <input type="tel" className="form-control " id="ISBN" placeholder="9783161484100"
+              <input type="tel" className="form-control " id="ISBN" placeholder=" "
                 name='isbnNumber'
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -101,7 +101,7 @@ const AddBook = () => {
             </div>
             <div className="mb-3 pt-3 col-lg-6">
               <label htmlFor="publicationDate " className="form-label text-light">Publication Date:</label>
-              <input type="date" className="form-control " id="publicationDate" placeholder="15/02/1880"
+              <input type="date" className="form-control " id="publicationDate" placeholder=" "
                 name='publicationDate'
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
