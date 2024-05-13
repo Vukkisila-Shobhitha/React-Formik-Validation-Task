@@ -49,7 +49,7 @@ const AddAuthor = () => {
           <div className="row">
             <div className="mb-3 pt-3 col-lg-6">
               <label for="authorName " className="form-label text-light">Author Name:</label>
-              <input type="text" className="form-control " id="authorName" placeholder="R.S.Agarval"
+              <input type="text" className="form-control " id="authorName" placeholder=" "
                 name='name'
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -62,7 +62,7 @@ const AddAuthor = () => {
 
             <div className="mb-3 pt-3 col-lg-6">
               <label for="birthDate " className="form-label text-light">Birth Date:</label>
-              <input type="date" className="form-control " id="birthDate" placeholder="15/02/1880"
+              <input type="date" className="form-control " id="birthDate" placeholder=" "
                 name='birth'
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
