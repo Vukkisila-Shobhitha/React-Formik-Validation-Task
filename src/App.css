@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(6, 6, 6);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  text-decoration: underline;
+}
+
+.nav-item:active {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: rgb(87, 89, 92);
+  color: whitesmoke;
+  border: none;
+}
+
+.border-shadow {
+  box-shadow: 0px 0px 6px 1px rgba(181, 177, 177, 0.74);
+  -webkit-box-shadow: 0px 0px 6px 1px rgba(181, 177, 177, 0.74);
+  -moz-box-shadow: 0px 0px 6px 1px rgba(181, 177, 177, 0.74);
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-button {
+  border-radius: 10px 0 10px 0;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid;
+  background-color: rgb(193, 191, 191);
+  color: black;
+  font-weight: 700;
+
+}
+
+.card-button:hover,
+.card-button:focus {
+  background-color: gainsboro;
+  color: black;
+}
+
+.card-button:active {
+  background-color: rgb(44, 43, 43);
+  color: whitesmoke;
+}
+
+
+.form-group {
+  padding: 10px auto 10px auto;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="search"] {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.dashboard-background {
+  background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZSUyMGxpYnJhcnl8ZW58MHx8MHx8fDA%3D');
+}
